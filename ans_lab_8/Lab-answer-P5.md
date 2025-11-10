@@ -8,7 +8,7 @@ The service remains available at all times because Kubernetes gradually replaces
 5.5 — What is happening here?
 
 ![5.5.1](../images/5.5.1.png)
-![5.5.2](./images/5.5.2.png)
+![5.5.2](../images/5.5.2.png)
 
 After updating to v3, the new pods enter the ErrImagePull / ImagePullBackOff state because the image jocatalin/kubernetes-bootcamp:v3 does not exist on Docker Hub.
 
@@ -17,8 +17,8 @@ The rollout is stalled until you either rollback (kubectl rollout undo …).
 
 5.6
 
-![5.6](./images/5.6.png)
+![5.6](../images/5.6.png)
 
 5.7
 
-![5.7](./images/5.7.png)
+![5.7](../images/5.7.png)
