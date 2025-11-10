@@ -1,0 +1,19 @@
+3. Use PersistentVolume
+
+1. Apply the configuration files
+
+![3.1](../images/3.1.png)
+
+2. Check the status of the PersistentVolume, Claim and Pod
+
+![3.2](../images/3.2.png)
+
+3. Create and read the index.html file inside the container
+
+![3.3](../images/3.3.png)
+
+4. Verify data persistence after Pod deletion and recreation
+
+![3.4](../images/3.4.png)
+
+When the Pod is deleted and recreated, the data in the PersistentVolume remains available on the node.
