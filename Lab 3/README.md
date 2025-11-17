@@ -1,9 +1,9 @@
-#Main Purpose of the Lab
+# Main Purpose of the Lab
 
 The goal of this lab is to learn and practice the fundamental concepts of Git and GitHub.
 It covers repository creation, cloning, branching, committing changes, pushing to a remote repository, and resolving merge conflicts.
 
-#Possible Uses in a Company
+# Possible Uses in a Company
 
 Git is one of the most widely used version control systems in the industry.
 The skills developed in this lab directly apply to real company environments:
@@ -14,7 +14,7 @@ The skills developed in this lab directly apply to real company environments:
 	•	Continuous Integration / Continuous Deployment (CI/CD): Git repositories serve as the foundation for automated pipelines.
 	•	Documentation and transparency: each commit contributes to traceability and project governance.
 
-#Step in the DevOps Cycle
+# Step in the DevOps Cycle
 
 This lab fits primarily into the Source Code Management (SCM) phase of the DevOps cycle.
 More specifically, it contributes to:
@@ -26,6 +26,6 @@ More specifically, it contributes to:
 
 Git is therefore a core tool for ensuring efficient collaboration and continuous delivery in DevOps environments.
 
-#Problems Encountered During the Lab
+# Problems Encountered During the Lab
 
 During the execution of the lab, no technical or conceptual issues were encountered.
