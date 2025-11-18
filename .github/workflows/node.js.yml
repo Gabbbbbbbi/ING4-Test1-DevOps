@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: "Lab 4"   # dossier où se trouve ton package.json
+        working-directory: "Lab 4/lab"  
 
     services:
       redis:
@@ -32,7 +32,7 @@ jobs:
       - name: Use Node.js 18
         uses: actions/setup-node@v4
         with:
-          node-version: 18        # 👈 on a ENLEVÉ `cache: 'npm'`
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
